@@ -6,19 +6,19 @@ This project focuses on building a machine learning model to predict the selling
 ---
 
 ##  Data Analysis & Insights
-Based on the provided dataset (`carsdata.csv`), the following key insights were discovered:
-* **Year of Manufacture:** Newer cars show a significant premium in price.
-* **Engine Power (`max_power`):** This is the strongest predictor of price; more horsepower directly correlates with higher value.
-* **Mileage (`km_driven`):** There is a clear inverse relationship — higher mileage leads to lower prices.
+Based on the provided dataset (carsdata.csv), the following key insights were discovered:
+* *Year of Manufacture:* Newer cars show a significant premium in price.
+* *Engine Power (max_power):** This is the strongest predictor of price; more horsepower directly correlates with higher value.
+* *Mileage (km_driven):** There is a clear inverse relationship - higher mileage leads to lower prices.
 
 ---
 
 ##  Data Preprocessing
 To prepare the data for the Machine Learning model, we performed several critical steps:
-1. **Cleaning:** Stripped technical units (like `bhp`, `cc`, `kmpl`) from string values.
-2. **Type Conversion:** Converted technical data into `float` types for mathematical processing.
-3. **Handling Missing Values:** Dropped rows with null values to maintain data quality.
-4. **Feature Selection:** Selected the most impactful variables: `year`, `km_driven`, `mileage`, `engine`, and `max_power`.
+1. *Cleaning:* Stripped technical units (like bhp, cc, kmpl) from string values.
+2. *Type Conversion:* Converted technical data into float types for mathematical processing.
+3. *Handling Missing Values:* Dropped rows with null values to maintain data quality.
+4. *Feature Selection:* Selected the most impactful variables: year, km_driven, mileage, engine, and max_power.
 
 ---
 
@@ -26,9 +26,9 @@ To prepare the data for the Machine Learning model, we performed several critica
 We implemented the **Random Forest Regressor**. 
 
 **Why Random Forest?**
-* It handles **non-linear relationships** better than simple linear models.
-* It is robust against **outliers** (e.g., very expensive luxury cars).
-* It reduces the risk of **overfitting** by averaging multiple decision trees.
+* It handles *non-linear relationships* better than simple linear models.
+* It is robust against *outliers* (e.g., very expensive luxury cars).
+* It reduces the risk of *overfitting* by averaging multiple decision trees.
 
 ---
 
@@ -52,5 +52,5 @@ The project successfully developed a high-accuracy model (**98% precision**). Th
 
 ##  How to Run
 1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`.
-3. Run the Jupyter Notebook: `notebooks/CarsRealvsPredicted.ipynb`.
+2. Install dependencies: pip install -r requirements.txt.
+3. Run the Jupyter Notebook: notebooks/CarsRealvsPredicted.ipynb.
