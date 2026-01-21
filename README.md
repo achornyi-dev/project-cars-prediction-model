@@ -38,7 +38,7 @@ The model was evaluated on a test dataset, showing excellent results:
 | Metric | Value |
 | :--- | :--- |
 | **R² Score** | **0.98** |
-| **Mean Absolute Error (MAE)** | **61,101.79** |
+| **Mean Absolute Error (MAE)** | **2444** |
 
 ### **Visual Result:**
 The "Real vs Predicted" scatter plot confirms that the model's predictions align almost perfectly with actual prices, as most data points sit directly on the diagonal regression line.
