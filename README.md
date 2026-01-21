@@ -9,7 +9,7 @@ This project focuses on building a machine learning model to predict the selling
 Based on the provided dataset (carsdata.csv), the following key insights were discovered:
 * *Year of Manufacture:* Newer cars show a significant premium in price.
 * *Engine Power (max_power):* This is the strongest predictor of price; more horsepower directly correlates with higher value.
-* *Mileage (km_driven):** There is a clear inverse relationship - higher mileage leads to lower prices.
+* *Mileage (km_driven):* There is a clear inverse relationship - higher mileage leads to lower prices.
 
 ---
 
